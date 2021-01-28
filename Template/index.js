@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { View, Text, TextInput } from 'react-native'
 
-const Form = () => {
+const FormTemplate = () => {
     const [value, onChangeText] = useState("Placeholder")
     return (
         <View>
@@ -14,4 +14,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default FormTemplate
